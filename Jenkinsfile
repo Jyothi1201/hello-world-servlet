@@ -24,7 +24,7 @@ stages {
 
    stage('Build') {
        steps {
-       Run the maven build
+       //Run the maven build
 
       //if (isUnix()) {
          sh 'mvn -Dmaven.test.failure.ignore=true install'
